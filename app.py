@@ -44,7 +44,7 @@ if "example_filename" not in st.session_state:
 
 # --- Title and Input ---
 st.title("📰 Hindi News Event Detection")
-st.markdown("Upload or paste a Hindi news article below to extract events (Task 1) and classify the event type (Task 2).")
+st.markdown("Generate or paste a Hindi news article below to extract events (Task 1) and classify the event type (Task 2).")
 
 # --- Generate Example Text Button ---
 # col_gen, _ = st.columns([1, 3])
