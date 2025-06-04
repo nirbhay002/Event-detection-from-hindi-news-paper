@@ -1,0 +1,33 @@
+                                    precision    recall  f1-score   support
+
+    MAN_MADE_EVENT.ARMED_CONFLICTS       1.00      1.00      1.00         3
+    MAN_MADE_EVENT.AVIATION_HAZARD       1.00      1.00      1.00        15
+               MAN_MADE_EVENT.FIRE       1.00      1.00      1.00        30
+MAN_MADE_EVENT.INDUSTRIAL_ACCIDENT       1.00      1.00      1.00        32
+     MAN_MADE_EVENT.NORMAL_BOMBING       1.00      1.00      1.00         4
+              MAN_MADE_EVENT.RIOTS       1.00      1.00      1.00         9
+          MAN_MADE_EVENT.SHOOT_OUT       1.00      1.00      1.00        28
+     MAN_MADE_EVENT.SUICIDE_ATTACK       1.00      1.00      1.00        39
+   MAN_MADE_EVENT.TERRORIST_ATTACK       1.00      1.00      1.00        78
+    MAN_MADE_EVENT.TRAIN_COLLISION       1.00      1.00      1.00        14
+  MAN_MADE_EVENT.TRANSPORT_HAZARDS       1.00      1.00      1.00        25
+MAN_MADE_EVENT.VEHICULAR_COLLISION       1.00      1.00      1.00        37
+          NATURAL_EVENT.AVALANCHES       1.00      1.00      1.00        29
+            NATURAL_EVENT.BLIZZARD       1.00      1.00      1.00        17
+           NATURAL_EVENT.COLD_WAVE       1.00      1.00      1.00        23
+             NATURAL_EVENT.CYCLONE       1.00      1.00      1.00         8
+             NATURAL_EVENT.DROUGHT       1.00      1.00      1.00         1
+          NATURAL_EVENT.EARTHQUAKE       1.00      1.00      1.00        29
+              NATURAL_EVENT.FLOODS       1.00      1.00      1.00        23
+         NATURAL_EVENT.FOREST_FIRE       1.00      1.00      1.00        30
+         NATURAL_EVENT.HAIL_STORMS       1.00      1.00      1.00        18
+           NATURAL_EVENT.HEAT_WAVE       1.00      1.00      1.00        22
+           NATURAL_EVENT.HURRICANE       1.00      1.00      1.00        14
+          NATURAL_EVENT.LAND_SLIDE       1.00      1.00      1.00        34
+               NATURAL_EVENT.STORM       1.00      1.00      1.00        15
+             NATURAL_EVENT.TORNADO       1.00      1.00      1.00        15
+             NATURAL_EVENT.VOLCANO       1.00      1.00      1.00        17
+
+                          accuracy                           1.00       609
+                         macro avg       1.00      1.00      1.00       609
+                      weighted avg       1.00      1.00      1.00       609

@@ -1,0 +1,86 @@
+                                      precision    recall  f1-score   support
+
+                        B-REASON-ARG      0.000     0.000     0.000        24
+                        I-REASON-ARG      0.000     0.000     0.000        69
+                          B-TIME-ARG      0.747     0.378     0.502       172
+                         B-PLACE-ARG      0.543     0.231     0.324       407
+    B-MAN_MADE_EVENT.TRAIN_COLLISION      0.400     0.333     0.364        12
+    I-MAN_MADE_EVENT.TRAIN_COLLISION      0.400     0.067     0.114        30
+                   B-PARTICIPANT-ARG      0.545     0.109     0.182       110
+                   I-PARTICIPANT-ARG      0.579     0.090     0.156       122
+                    B-CASUALTIES-ARG      0.562     0.389     0.460       162
+                    I-CASUALTIES-ARG      0.683     0.276     0.393       695
+                 B-AFTER_EFFECTS-ARG      0.077     0.007     0.013       144
+                 I-AFTER_EFFECTS-ARG      0.455     0.014     0.027      1076
+             B-NATURAL_EVENT.VOLCANO      0.500     0.111     0.182        18
+             I-NATURAL_EVENT.VOLCANO      0.000     0.000     0.000        18
+                         I-PLACE-ARG      0.677     0.165     0.265       778
+          B-NATURAL_EVENT.LAND_SLIDE      0.286     0.333     0.308         6
+                          I-TIME-ARG      0.772     0.338     0.470       231
+          I-NATURAL_EVENT.LAND_SLIDE      0.000     0.000     0.000         6
+             B-NATURAL_EVENT.TORNADO      0.571     0.222     0.320        18
+B-MAN_MADE_EVENT.INDUSTRIAL_ACCIDENT      0.000     0.000     0.000         8
+I-MAN_MADE_EVENT.INDUSTRIAL_ACCIDENT      0.000     0.000     0.000         6
+                          B-NAME-ARG      1.000     0.208     0.345        24
+                          I-NAME-ARG      0.500     0.048     0.087        21
+     B-MAN_MADE_EVENT.SUICIDE_ATTACK      0.353     0.706     0.471        17
+     I-MAN_MADE_EVENT.SUICIDE_ATTACK      0.545     0.750     0.632         8
+              B-NATURAL_EVENT.FLOODS      1.000     0.250     0.400         8
+          B-NATURAL_EVENT.AVALANCHES      0.000     0.000     0.000         1
+  B-MAN_MADE_EVENT.TRANSPORT_HAZARDS      0.000     0.000     0.000        15
+  I-MAN_MADE_EVENT.TRANSPORT_HAZARDS      0.000     0.000     0.000        16
+    B-MAN_MADE_EVENT.AVIATION_HAZARD      0.667     0.308     0.421        13
+    I-MAN_MADE_EVENT.AVIATION_HAZARD      0.500     0.143     0.222         7
+   B-MAN_MADE_EVENT.TERRORIST_ATTACK      0.367     0.579     0.449        19
+   I-MAN_MADE_EVENT.TERRORIST_ATTACK      0.286     0.500     0.364         4
+          I-NATURAL_EVENT.AVALANCHES      0.000     0.000     0.000         0
+          B-NATURAL_EVENT.EARTHQUAKE      0.838     0.721     0.775        43
+                     B-MAGNITUDE-ARG      0.500     0.222     0.308         9
+                     I-MAGNITUDE-ARG      1.000     0.091     0.167        11
+     B-MAN_MADE_EVENT.NORMAL_BOMBING      0.000     0.000     0.000         5
+          B-MAN_MADE_EVENT.SHOOT_OUT      0.674     0.358     0.468        81
+           B-NATURAL_EVENT.HURRICANE      0.200     0.750     0.316         4
+             I-NATURAL_EVENT.TORNADO      0.333     0.333     0.333         3
+                     B-INTENSITY-ARG      0.400     0.035     0.065        57
+                     I-INTENSITY-ARG      0.500     0.023     0.043       133
+           B-NATURAL_EVENT.HEAT_WAVE      0.618     0.808     0.700        26
+           I-NATURAL_EVENT.HEAT_WAVE      0.571     0.500     0.533         8
+         B-NATURAL_EVENT.FOREST_FIRE      0.000     0.000     0.000         0
+         I-NATURAL_EVENT.FOREST_FIRE      0.000     0.000     0.000         0
+          I-NATURAL_EVENT.EARTHQUAKE      0.333     0.333     0.333         6
+                     B-EPICENTRE-ARG      0.333     0.500     0.400         2
+                     I-EPICENTRE-ARG      0.000     0.000     0.000        23
+B-MAN_MADE_EVENT.VEHICULAR_COLLISION      0.724     0.553     0.627        38
+          I-MAN_MADE_EVENT.SHOOT_OUT      0.531     0.630     0.576        27
+    B-MAN_MADE_EVENT.ARMED_CONFLICTS      0.000     0.000     0.000         1
+               B-MAN_MADE_EVENT.FIRE      0.545     0.231     0.324        26
+               I-MAN_MADE_EVENT.FIRE      0.000     0.000     0.000         8
+I-MAN_MADE_EVENT.VEHICULAR_COLLISION      0.769     0.769     0.769        13
+           B-NATURAL_EVENT.COLD_WAVE      1.000     0.625     0.769        16
+           I-NATURAL_EVENT.COLD_WAVE      1.000     0.400     0.571         5
+                         B-SPEED-ARG      0.000     0.000     0.000         2
+                         I-SPEED-ARG      0.000     0.000     0.000         5
+              B-MAN_MADE_EVENT.RIOTS      0.000     0.000     0.000         0
+              I-MAN_MADE_EVENT.RIOTS      0.000     0.000     0.000         0
+            B-NATURAL_EVENT.BLIZZARD      0.353     0.462     0.400        13
+            I-NATURAL_EVENT.BLIZZARD      0.417     0.833     0.556         6
+                         B-DEPTH-ARG      0.000     0.000     0.000         0
+                         I-DEPTH-ARG      0.000     0.000     0.000         0
+              I-NATURAL_EVENT.FLOODS      0.000     0.000     0.000         5
+               B-NATURAL_EVENT.STORM      0.182     0.167     0.174        12
+               I-NATURAL_EVENT.STORM      0.000     0.000     0.000         0
+         B-NATURAL_EVENT.HAIL_STORMS      0.000     0.000     0.000         0
+         I-NATURAL_EVENT.HAIL_STORMS      0.000     0.000     0.000         0
+             B-NATURAL_EVENT.CYCLONE      0.000     0.000     0.000         2
+             I-NATURAL_EVENT.CYCLONE      0.000     0.000     0.000         2
+             B-NATURAL_EVENT.DROUGHT      0.000     0.000     0.000         0
+           I-NATURAL_EVENT.HURRICANE      0.000     0.000     0.000         1
+    I-MAN_MADE_EVENT.ARMED_CONFLICTS      0.000     0.000     0.000         0
+     I-MAN_MADE_EVENT.NORMAL_BOMBING      1.000     0.500     0.667         2
+                   B-TEMPERATURE-ARG      0.000     0.000     0.000         0
+                   I-TEMPERATURE-ARG      0.000     0.000     0.000         0
+             B-NATURAL_EVENT.TSUNAMI      0.000     0.000     0.000         0
+
+                           micro avg      0.596     0.185     0.282      4860
+                           macro avg      0.323     0.205     0.217      4860
+                        weighted avg      0.552     0.185     0.249      4860
